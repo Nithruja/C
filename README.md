@@ -1,5 +1,5 @@
 # C-patterns
-1. Square pattern
+1. Square pattern 
 ### ****
 ### ****
 ### ****
