@@ -1,0 +1,23 @@
+21. Print a triangle of alphabets:
+    ```
+    A
+    A B
+    A B C
+
+solution:
+
+#include <stdio.h>
+
+int main()
+{
+    int n,i,j;
+    scanf("%d",&n);
+    for(i=0; i<n; i++){
+        for(j=0; j<i+1; j++){
+            printf("%c",'A'+j);
+        }
+    printf("\n");
+    }
+
+    return 0;
+}
