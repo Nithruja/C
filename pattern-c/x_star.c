@@ -17,7 +17,7 @@ int main() {
 
   for (i = 0; i < n; i++) {
     for (j = 0; j < n; j++) {
-      if (i==j || i+j==n-1) {
+      if (i==j || j==n-i-1) {
         printf("* ");
       } else {
         printf("  ");
